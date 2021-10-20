@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+  padding: 15px;
+  max-width: 250px;
+  border: 1px solid darkorchid;
+  border-radius: 40px 0px;
+  animation-name: show;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+}
+@keyframes show {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
